@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iwY-HU-C2S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iwY-HU-C2S">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -19,9 +19,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Sign up" id="Gcy-WY-6RF"/>
+                    <navigationItem key="navigationItem" title="Sign up" id="Gcy-WY-6RF">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="a8l-yb-a03">
+                            <connections>
+                                <segue destination="iwY-HU-C2S" kind="showDetail" id="9bF-cp-2Oa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <segue destination="UEM-gb-YF5" kind="show" identifier="showSlideView" id="3dQ-li-Jgg"/>
+                        <segue destination="UEM-gb-YF5" kind="showDetail" identifier="showSlideView" id="3dQ-li-Jgg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWb-YW-r0K" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -42,10 +48,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="RAd-33-dxi">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="m05-Yu-zbo"/>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="FhH-dZ-MlS">
+                            <connections>
+                                <segue destination="iwY-HU-C2S" kind="showDetail" id="ZC0-rk-cCU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="UEM-gb-YF5" kind="show" identifier="showSlideView" id="wfA-iB-bF8"/>
+                        <segue destination="UEM-gb-YF5" kind="showDetail" identifier="showSlideView" id="wfA-iB-bF8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nA-Pg-d7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -74,12 +84,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UEM-gb-YF5" kind="show" id="tW9-BB-GBG"/>
+                                    <segue destination="UEM-gb-YF5" kind="showDetail" id="tW9-BB-GBG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZQ-DS-08u">
                                 <rect key="frame" x="36" y="465" width="528" height="50"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="wRT-KT-1sG"/>
                                 </constraints>
@@ -145,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cWk-P0-lNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1586" y="441"/>
+            <point key="canvasLocation" x="-1982" y="452"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="x0o-51-XE5">
@@ -428,7 +438,6 @@
         <!--Navigation Controller-->
         <scene sceneID="nOz-ru-Wuy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Kh-Nm-QrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="80g-mn-Ii5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="tNf-3q-3FP">
@@ -443,8 +452,9 @@
                         <segue destination="Dep-WN-Ndx" kind="relationship" relationship="rootViewController" id="LHv-Nk-o0d"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Kh-Nm-QrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-492" y="-41"/>
+            <point key="canvasLocation" x="-614" y="-459"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ihw-YY-0Vf">
@@ -462,14 +472,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9qb-YS-wes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-505" y="912"/>
+            <point key="canvasLocation" x="-641" y="1394"/>
         </scene>
     </scenes>
     <resources>
         <image name="icon_menu" width="28" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3dQ-li-Jgg"/>
+        <segue reference="tW9-BB-GBG"/>
+        <segue reference="ZC0-rk-cCU"/>
         <segue reference="eyr-ke-Pwy"/>
     </inferredMetricsTieBreakers>
 </document>
