@@ -99,7 +99,11 @@
 		3600F2251B1BEC8F001A3533 /* Foodhunt */ = {
 			isa = PBXGroup;
 			children = (
-				36E6A95C1B1C26DE00AA393B /* Controller */,
+				36E6A9611B1C2D2900AA393B /* DataManagers */,
+				36E6A9601B1C2D1300AA393B /* Utils */,
+				36E6A95F1B1C2CFD00AA393B /* Services */,
+				36E6A95D1B1C2CD300AA393B /* Models */,
+				36E6A95C1B1C26DE00AA393B /* Controllers */,
 				3600F2551B1C0955001A3533 /* SWRevealViewController */,
 				3600F22A1B1BEC8F001A3533 /* AppDelegate.h */,
 				3600F22B1B1BEC8F001A3533 /* AppDelegate.m */,
@@ -200,7 +204,7 @@
 			name = ShopDetailViewController;
 			sourceTree = "<group>";
 		};
-		36E6A95C1B1C26DE00AA393B /* Controller */ = {
+		36E6A95C1B1C26DE00AA393B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3600F2591B1C09DD001A3533 /* SlideMasterViewController */,
@@ -210,7 +214,43 @@
 				3600F2691B1C12D1001A3533 /* SettingsViewController */,
 				3600F26D1B1C1370001A3533 /* ShopDetailViewController */,
 			);
-			name = Controller;
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		36E6A95D1B1C2CD300AA393B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		36E6A95E1B1C2CDF00AA393B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		36E6A95F1B1C2CFD00AA393B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		36E6A9601B1C2D1300AA393B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36E6A95E1B1C2CDF00AA393B /* Helpers */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		36E6A9611B1C2D2900AA393B /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
