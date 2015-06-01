@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "SWRevealViewController.h"
 
 @interface SettingsViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.leftMenuBarButton setTarget: self.revealViewController];
+        [self.leftMenuBarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
+    
     // Do any additional setup after loading the view.
 }
 

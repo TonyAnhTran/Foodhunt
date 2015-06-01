@@ -51,13 +51,14 @@
                         <segue destination="qe7-10-cRc" kind="custom" identifier="show_notifications" customClass="SWRevealViewControllerSeguePushController" id="OcV-UY-9YL"/>
                         <segue destination="8SW-uA-j0C" kind="custom" identifier="show_profile" customClass="SWRevealViewControllerSeguePushController" id="d5V-JX-Jj8"/>
                         <segue destination="hFL-OZ-s0j" kind="custom" identifier="show_settings" customClass="SWRevealViewControllerSeguePushController" id="Rg2-RQ-orK"/>
+                        <segue destination="nqD-Za-ZxG" kind="custom" identifier="show_home" customClass="SWRevealViewControllerSeguePushController" id="eyr-ke-Pwy"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRM-ah-npG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="126" y="8"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Settings-->
         <scene sceneID="oqH-Dp-89c">
             <objects>
                 <viewController id="1yP-Bo-ZNI" customClass="SettingsViewController" sceneMemberID="viewController">
@@ -70,7 +71,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lin-9o-uNn"/>
+                    <navigationItem key="navigationItem" title="Settings" id="lin-9o-uNn">
+                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="jtu-RV-CrV"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftMenuBarButton" destination="jtu-RV-CrV" id="VWK-Ri-xkr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTO-4x-QP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,9 +99,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Qi-Az-pdq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1792" y="1425"/>
+            <point key="canvasLocation" x="1920" y="1549"/>
         </scene>
-        <!--Notification Table View Controller-->
+        <!--Notification-->
         <scene sceneID="Et7-0w-hys">
             <objects>
                 <tableViewController id="F2e-WA-Ttz" customClass="NotificationTableViewController" sceneMemberID="viewController">
@@ -116,13 +122,18 @@
                             <outlet property="delegate" destination="F2e-WA-Ttz" id="4vj-WC-vog"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Sae-7I-TYu"/>
+                    <navigationItem key="navigationItem" title="Notification" id="Sae-7I-TYu">
+                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="VXZ-bW-bcR"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftMenuBarButton" destination="VXZ-bW-bcR" id="aro-Uo-3R5"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Sc-GN-Aaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2180" y="-717"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="dgu-eO-cjP">
             <objects>
                 <viewController id="nS9-Yz-eLY" customClass="ProfileViewController" sceneMemberID="viewController">
@@ -135,7 +146,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qWF-bM-6jQ"/>
+                    <navigationItem key="navigationItem" title="Profile" id="qWF-bM-6jQ">
+                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="C8D-KU-XN2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leftMenuBarButton" destination="C8D-KU-XN2" id="5g9-Mu-km8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4g-Oy-uFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,7 +207,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="914" y="1414"/>
+            <point key="canvasLocation" x="1004" y="1516"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lcz-xk-1X8">
@@ -209,7 +225,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Aq-64-tY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126" y="1160"/>
+            <point key="canvasLocation" x="126" y="1244"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Iv6-nL-adC">
@@ -269,4 +285,7 @@
     <resources>
         <image name="icon_menu" width="28" height="20"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eyr-ke-Pwy"/>
+    </inferredMetricsTieBreakers>
 </document>

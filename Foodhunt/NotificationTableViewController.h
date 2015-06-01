@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface NotificationTableViewController : UITableViewController
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *leftMenuBarButton;
 
 @end
