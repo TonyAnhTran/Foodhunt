@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  NotificationTableViewController.h
 //  Foodhunt
 //
 //  Created by Tu (Tony) A. TRAN on 6/1/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
-
+@interface NotificationTableViewController : UITableViewController
 
 @end
-

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		3600F2291B1BEC8F001A3533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2281B1BEC8F001A3533 /* main.m */; };
 		3600F22C1B1BEC8F001A3533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F22B1B1BEC8F001A3533 /* AppDelegate.m */; };
-		3600F22F1B1BEC8F001A3533 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F22E1B1BEC8F001A3533 /* MasterViewController.m */; };
-		3600F2321B1BEC8F001A3533 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2311B1BEC8F001A3533 /* DetailViewController.m */; };
 		3600F2351B1BEC8F001A3533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3600F2331B1BEC8F001A3533 /* Main.storyboard */; };
 		3600F2371B1BEC8F001A3533 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3600F2361B1BEC8F001A3533 /* Images.xcassets */; };
 		3600F23A1B1BEC8F001A3533 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3600F2381B1BEC8F001A3533 /* LaunchScreen.xib */; };
 		3600F2461B1BEC90001A3533 /* FoodhuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2451B1BEC90001A3533 /* FoodhuntTests.m */; };
+		3600F2581B1C097A001A3533 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2571B1C097A001A3533 /* SWRevealViewController.m */; };
+		3600F25C1B1C0A17001A3533 /* SlideMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F25B1B1C0A17001A3533 /* SlideMasterViewController.m */; };
+		3600F2601B1C0AB1001A3533 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F25F1B1C0AB1001A3533 /* HomeTableViewController.m */; };
+		3600F2641B1C1164001A3533 /* NotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2631B1C1164001A3533 /* NotificationTableViewController.m */; };
+		3600F2681B1C12BF001A3533 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F2671B1C12BF001A3533 /* ProfileViewController.m */; };
+		3600F26C1B1C12FD001A3533 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F26B1B1C12FD001A3533 /* SettingsViewController.m */; };
+		3600F2701B1C1388001A3533 /* ShopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600F26F1B1C1388001A3533 /* ShopDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +38,26 @@
 		3600F2281B1BEC8F001A3533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3600F22A1B1BEC8F001A3533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3600F22B1B1BEC8F001A3533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3600F22D1B1BEC8F001A3533 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3600F22E1B1BEC8F001A3533 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3600F2301B1BEC8F001A3533 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3600F2311B1BEC8F001A3533 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3600F2341B1BEC8F001A3533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3600F2361B1BEC8F001A3533 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3600F2391B1BEC8F001A3533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3600F23F1B1BEC90001A3533 /* FoodhuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodhuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3600F2441B1BEC90001A3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3600F2451B1BEC90001A3533 /* FoodhuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodhuntTests.m; sourceTree = "<group>"; };
+		3600F2561B1C097A001A3533 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3600F2571B1C097A001A3533 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3600F25A1B1C0A17001A3533 /* SlideMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideMasterViewController.h; path = SlideMasterViewController/SlideMasterViewController.h; sourceTree = "<group>"; };
+		3600F25B1B1C0A17001A3533 /* SlideMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideMasterViewController.m; path = SlideMasterViewController/SlideMasterViewController.m; sourceTree = "<group>"; };
+		3600F25E1B1C0AB1001A3533 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewController.h; path = HomeTableViewController/HomeTableViewController.h; sourceTree = "<group>"; };
+		3600F25F1B1C0AB1001A3533 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewController.m; path = HomeTableViewController/HomeTableViewController.m; sourceTree = "<group>"; };
+		3600F2621B1C1164001A3533 /* NotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewController.h; sourceTree = "<group>"; };
+		3600F2631B1C1164001A3533 /* NotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewController.m; sourceTree = "<group>"; };
+		3600F2661B1C12BF001A3533 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ProfileViewController/ProfileViewController.h; sourceTree = "<group>"; };
+		3600F2671B1C12BF001A3533 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ProfileViewController/ProfileViewController.m; sourceTree = "<group>"; };
+		3600F26A1B1C12FD001A3533 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = SettingsViewController/SettingsViewController.h; sourceTree = "<group>"; };
+		3600F26B1B1C12FD001A3533 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = SettingsViewController/SettingsViewController.m; sourceTree = "<group>"; };
+		3600F26E1B1C1388001A3533 /* ShopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopDetailViewController.h; path = ShopDetailViewController/ShopDetailViewController.h; sourceTree = "<group>"; };
+		3600F26F1B1C1388001A3533 /* ShopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopDetailViewController.m; path = ShopDetailViewController/ShopDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +99,15 @@
 		3600F2251B1BEC8F001A3533 /* Foodhunt */ = {
 			isa = PBXGroup;
 			children = (
+				3600F26D1B1C1370001A3533 /* ShopDetailViewController */,
+				3600F2691B1C12D1001A3533 /* SettingsViewController */,
+				3600F2651B1C1298001A3533 /* ProfileViewController */,
+				3600F2611B1C1147001A3533 /* NotificationTableViewController */,
+				3600F25D1B1C0A66001A3533 /* HomeTableViewController */,
+				3600F2591B1C09DD001A3533 /* SlideMasterViewController */,
+				3600F2551B1C0955001A3533 /* SWRevealViewController */,
 				3600F22A1B1BEC8F001A3533 /* AppDelegate.h */,
 				3600F22B1B1BEC8F001A3533 /* AppDelegate.m */,
-				3600F22D1B1BEC8F001A3533 /* MasterViewController.h */,
-				3600F22E1B1BEC8F001A3533 /* MasterViewController.m */,
-				3600F2301B1BEC8F001A3533 /* DetailViewController.h */,
-				3600F2311B1BEC8F001A3533 /* DetailViewController.m */,
 				3600F2331B1BEC8F001A3533 /* Main.storyboard */,
 				3600F2361B1BEC8F001A3533 /* Images.xcassets */,
 				3600F2381B1BEC8F001A3533 /* LaunchScreen.xib */,
@@ -122,6 +140,69 @@
 				3600F2441B1BEC90001A3533 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3600F2551B1C0955001A3533 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F2561B1C097A001A3533 /* SWRevealViewController.h */,
+				3600F2571B1C097A001A3533 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3600F2591B1C09DD001A3533 /* SlideMasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F25A1B1C0A17001A3533 /* SlideMasterViewController.h */,
+				3600F25B1B1C0A17001A3533 /* SlideMasterViewController.m */,
+			);
+			name = SlideMasterViewController;
+			sourceTree = "<group>";
+		};
+		3600F25D1B1C0A66001A3533 /* HomeTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F25E1B1C0AB1001A3533 /* HomeTableViewController.h */,
+				3600F25F1B1C0AB1001A3533 /* HomeTableViewController.m */,
+			);
+			name = HomeTableViewController;
+			sourceTree = "<group>";
+		};
+		3600F2611B1C1147001A3533 /* NotificationTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F2621B1C1164001A3533 /* NotificationTableViewController.h */,
+				3600F2631B1C1164001A3533 /* NotificationTableViewController.m */,
+			);
+			name = NotificationTableViewController;
+			sourceTree = "<group>";
+		};
+		3600F2651B1C1298001A3533 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F2661B1C12BF001A3533 /* ProfileViewController.h */,
+				3600F2671B1C12BF001A3533 /* ProfileViewController.m */,
+			);
+			name = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		3600F2691B1C12D1001A3533 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F26A1B1C12FD001A3533 /* SettingsViewController.h */,
+				3600F26B1B1C12FD001A3533 /* SettingsViewController.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		3600F26D1B1C1370001A3533 /* ShopDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3600F26E1B1C1388001A3533 /* ShopDetailViewController.h */,
+				3600F26F1B1C1388001A3533 /* ShopDetailViewController.m */,
+			);
+			name = ShopDetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3600F2641B1C1164001A3533 /* NotificationTableViewController.m in Sources */,
 				3600F22C1B1BEC8F001A3533 /* AppDelegate.m in Sources */,
-				3600F22F1B1BEC8F001A3533 /* MasterViewController.m in Sources */,
+				3600F2601B1C0AB1001A3533 /* HomeTableViewController.m in Sources */,
+				3600F26C1B1C12FD001A3533 /* SettingsViewController.m in Sources */,
+				3600F2581B1C097A001A3533 /* SWRevealViewController.m in Sources */,
+				3600F2701B1C1388001A3533 /* ShopDetailViewController.m in Sources */,
+				3600F2681B1C12BF001A3533 /* ProfileViewController.m in Sources */,
+				3600F25C1B1C0A17001A3533 /* SlideMasterViewController.m in Sources */,
 				3600F2291B1BEC8F001A3533 /* main.m in Sources */,
-				3600F2321B1BEC8F001A3533 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +508,7 @@
 				3600F24B1B1BEC90001A3533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3600F24C1B1BEC90001A3533 /* Build configuration list for PBXNativeTarget "FoodhuntTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +517,7 @@
 				3600F24E1B1BEC90001A3533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
