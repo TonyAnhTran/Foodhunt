@@ -24,14 +24,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+#pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    //Todo: Pass the use information to the new view controller if needed.
 }
-*/
+
+#pragma mark - IBAction
+- (IBAction)loginButtondidTap:(id)sender {
+    //Send request to server (or keychain) to check login information
+    //If valid validation then
+    [self performSegueWithIdentifier:@"showSlideView" sender:self];
+}
+- (IBAction)forgotPasswordButtonDidTap:(id)sender {
+    NSLog(@"forgotPasswordButtonDidTap");
+}
 
 @end
