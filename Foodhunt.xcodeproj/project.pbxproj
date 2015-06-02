@@ -23,6 +23,7 @@
 		36E6A9651B1C35A900AA393B /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6A9641B1C35A900AA393B /* StartViewController.m */; };
 		36E6A96A1B1C35D700AA393B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6A9691B1C35D700AA393B /* LoginViewController.m */; };
 		36E6A96E1B1C35F900AA393B /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6A96D1B1C35F900AA393B /* SignUpViewController.m */; };
+		4FD6AB671B1DF83E003B51BE /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6AB661B1DF83E003B51BE /* EditProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		36E6A9691B1C35D700AA393B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
 		36E6A96C1B1C35F900AA393B /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		36E6A96D1B1C35F900AA393B /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		4FD6AB651B1DF83E003B51BE /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileViewController.h; path = ProfileViewController/EditProfileViewController.h; sourceTree = "<group>"; };
+		4FD6AB661B1DF83E003B51BE /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileViewController.m; path = ProfileViewController/EditProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +194,8 @@
 			children = (
 				3600F2661B1C12BF001A3533 /* ProfileViewController.h */,
 				3600F2671B1C12BF001A3533 /* ProfileViewController.m */,
+				4FD6AB651B1DF83E003B51BE /* EditProfileViewController.h */,
+				4FD6AB661B1DF83E003B51BE /* EditProfileViewController.m */,
 			);
 			name = ProfileViewController;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				3600F2581B1C097A001A3533 /* SWRevealViewController.m in Sources */,
 				3600F2701B1C1388001A3533 /* ShopDetailViewController.m in Sources */,
 				3600F2681B1C12BF001A3533 /* ProfileViewController.m in Sources */,
+				4FD6AB671B1DF83E003B51BE /* EditProfileViewController.m in Sources */,
 				36E6A9651B1C35A900AA393B /* StartViewController.m in Sources */,
 				3600F25C1B1C0A17001A3533 /* SlideMasterViewController.m in Sources */,
 				36E6A96A1B1C35D700AA393B /* LoginViewController.m in Sources */,

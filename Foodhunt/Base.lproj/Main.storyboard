@@ -54,7 +54,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up you accept our Term of user and Privacy policy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyM-VF-iHa">
                                 <rect key="frame" x="31" y="324" width="538" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="O3I-5U-3b6"/>
+                                    <constraint firstAttribute="height" constant="45" id="MH5-op-3JR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -71,6 +71,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupButtonDidTap:" destination="rIr-Wa-CUQ" eventType="touchUpInside" id="Vbu-Hf-3nA"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" enter password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Zo-yK-9BH">
                                 <rect key="frame" x="31" y="234" width="538" height="40"/>
@@ -84,20 +87,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="lDd-Y8-A2h" secondAttribute="trailing" constant="15" id="1wY-mb-Ykc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CyM-VF-iHa" secondAttribute="trailing" constant="15" id="3BD-FN-CxC"/>
-                            <constraint firstItem="CyM-VF-iHa" firstAttribute="top" secondItem="4Zo-yK-9BH" secondAttribute="bottom" constant="50" id="3S0-0y-Eqe"/>
+                            <constraint firstItem="CyM-VF-iHa" firstAttribute="leading" secondItem="jdv-cM-zS2" secondAttribute="leadingMargin" constant="15" id="23o-mq-3Mp"/>
                             <constraint firstItem="1E1-1z-DnS" firstAttribute="top" secondItem="Jr1-KN-8lc" secondAttribute="bottom" constant="20" id="5BM-4y-oeT"/>
+                            <constraint firstItem="3s9-w6-XLk" firstAttribute="top" secondItem="CyM-VF-iHa" secondAttribute="bottom" id="5Fm-gK-jml"/>
                             <constraint firstItem="1E1-1z-DnS" firstAttribute="leading" secondItem="lYq-3x-Onk" secondAttribute="trailing" constant="20" id="7mz-eE-YJJ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3s9-w6-XLk" secondAttribute="trailing" constant="15" id="AIu-Gi-EGC"/>
                             <constraint firstItem="lDd-Y8-A2h" firstAttribute="leading" secondItem="lYq-3x-Onk" secondAttribute="trailing" constant="20" id="Bm7-fz-24D"/>
                             <constraint firstItem="lDd-Y8-A2h" firstAttribute="top" secondItem="1E1-1z-DnS" secondAttribute="bottom" constant="10" id="BoE-Wq-V3q"/>
                             <constraint firstItem="4Zo-yK-9BH" firstAttribute="top" secondItem="dc0-4S-05h" secondAttribute="bottom" constant="20" id="EJ2-uE-ha0"/>
-                            <constraint firstItem="3s9-w6-XLk" firstAttribute="top" secondItem="CyM-VF-iHa" secondAttribute="bottom" id="NJh-WP-gXW"/>
                             <constraint firstItem="dc0-4S-05h" firstAttribute="top" secondItem="lDd-Y8-A2h" secondAttribute="bottom" constant="20" id="O6Y-JH-0oV"/>
                             <constraint firstItem="3s9-w6-XLk" firstAttribute="leading" secondItem="jdv-cM-zS2" secondAttribute="leadingMargin" constant="15" id="OsN-Bo-FOk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dc0-4S-05h" secondAttribute="trailing" constant="15" id="YP9-gh-tc0"/>
                             <constraint firstItem="lYq-3x-Onk" firstAttribute="top" secondItem="Jr1-KN-8lc" secondAttribute="bottom" constant="20" id="abA-QA-qxD"/>
-                            <constraint firstItem="CyM-VF-iHa" firstAttribute="leading" secondItem="jdv-cM-zS2" secondAttribute="leadingMargin" constant="15" id="hQL-hZ-2bN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CyM-VF-iHa" secondAttribute="trailing" constant="15" id="etc-hN-TWL"/>
+                            <constraint firstItem="CyM-VF-iHa" firstAttribute="top" secondItem="4Zo-yK-9BH" secondAttribute="bottom" constant="50" id="gP9-i6-Qi9"/>
                             <constraint firstItem="4Zo-yK-9BH" firstAttribute="leading" secondItem="jdv-cM-zS2" secondAttribute="leadingMargin" constant="15" id="j74-Jo-k0G"/>
                             <constraint firstItem="lYq-3x-Onk" firstAttribute="leading" secondItem="jdv-cM-zS2" secondAttribute="leadingMargin" constant="15" id="kNA-B5-jhm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1E1-1z-DnS" secondAttribute="trailing" constant="15" id="rLe-YN-vc7"/>
@@ -118,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWb-YW-r0K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="912"/>
+            <point key="canvasLocation" x="143" y="912"/>
         </scene>
         <!--Login-->
         <scene sceneID="34O-uh-Z0U">
@@ -207,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nA-Pg-d7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320" y="-41"/>
+            <point key="canvasLocation" x="134" y="-459"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="482-5D-RGI">
@@ -381,7 +384,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="lin-9o-uNn">
-                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="jtu-RV-CrV"/>
+                        <barButtonItem key="leftBarButtonItem" image="icon_navigator_back" id="jtu-RV-CrV">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="leftMenuBarButton" destination="jtu-RV-CrV" id="VWK-Ri-xkr"/>
@@ -432,7 +437,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Notification" id="Sae-7I-TYu">
-                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="VXZ-bW-bcR"/>
+                        <barButtonItem key="leftBarButtonItem" image="icon_navigator_back" id="VXZ-bW-bcR">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="leftMenuBarButton" destination="VXZ-bW-bcR" id="aro-Uo-3R5"/>
@@ -456,7 +463,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="qWF-bM-6jQ">
-                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="C8D-KU-XN2"/>
+                        <barButtonItem key="leftBarButtonItem" image="icon_navigator_back" id="C8D-KU-XN2">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="icon_navigator_edit" id="Cqp-aS-nCA">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="wCB-QI-SrM" kind="show" id="Zc5-ii-M7c"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="leftMenuBarButton" destination="C8D-KU-XN2" id="5g9-Mu-km8"/>
@@ -465,6 +480,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4g-Oy-uFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4594" y="97"/>
+        </scene>
+        <!--Edit Profile View Controller-->
+        <scene sceneID="nOe-fq-uR2">
+            <objects>
+                <viewController id="wCB-QI-SrM" customClass="EditProfileViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1UN-Q6-NXZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="F9A-G1-CCz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZEp-ja-MwV">
+                        <rect key="frame" x="0.0" y="44" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iw6-dQ-Ozh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5416" y="97"/>
         </scene>
         <!--Home-->
         <scene sceneID="Lj9-1t-ruJ">
@@ -496,8 +531,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="h6Q-mj-OIN">
-                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="3pc-hg-vqH"/>
-                        <barButtonItem key="rightBarButtonItem" image="icon_menu" id="l6Z-a8-GAw"/>
+                        <barButtonItem key="leftBarButtonItem" image="icon_menu" id="3pc-hg-vqH">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="icon_navigator_map" id="l6Z-a8-GAw">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="leftMenuBarButton" destination="3pc-hg-vqH" id="SnJ-qW-3Qz"/>
@@ -627,15 +666,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9qb-YS-wes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-641" y="1394"/>
+            <point key="canvasLocation" x="-587" y="912"/>
         </scene>
     </scenes>
     <resources>
         <image name="icon_menu" width="28" height="20"/>
+        <image name="icon_navigator_back" width="21" height="21"/>
+        <image name="icon_navigator_edit" width="30" height="30"/>
+        <image name="icon_navigator_map" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZC0-rk-cCU"/>
-        <segue reference="tW9-BB-GBG"/>
+        <segue reference="9bF-cp-2Oa"/>
+        <segue reference="3dQ-li-Jgg"/>
         <segue reference="eyr-ke-Pwy"/>
     </inferredMetricsTieBreakers>
 </document>

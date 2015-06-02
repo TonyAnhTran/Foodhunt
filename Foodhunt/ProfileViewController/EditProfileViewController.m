@@ -1,18 +1,18 @@
 //
-//  SignUpViewController.m
+//  EditProfileViewController.m
 //  Foodhunt
 //
-//  Created by Tu (Tony) A. TRAN on 6/1/15.
+//  Created by Tu A. Tran on 6/2/15.
 //  Copyright (c) 2015 TW.FLcers. All rights reserved.
 //
 
-#import "SignUpViewController.h"
+#import "EditProfileViewController.h"
 
-@interface SignUpViewController ()
+@interface EditProfileViewController ()
 
 @end
 
-@implementation SignUpViewController
+@implementation EditProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,20 +24,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+/*
 #pragma mark - Navigation
+
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-
-
-#pragma mark - IBAction
-- (IBAction)signupButtonDidTap:(id)sender {
-    //Send request to server to create account
-    //If success then performSegueWithIdentifier
-    [self performSegueWithIdentifier:@"showSlideView" sender:self];
-}
+*/
 
 @end
